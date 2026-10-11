@@ -1,6 +1,6 @@
 # How to Set Up AnyPS5 on Windows (Step by Step)
 
-Companion files for the Honest Latency video. (Video link coming soon.)
+Companion files for the video: **[How to Run PS5 Games on PC - AnyPS5 Setup](https://www.youtube.com/watch?v=DwF6UpRaTfc)** on [Honest Latency](https://www.youtube.com/@HonestLatency).
 
 Tested on an Intel i5 laptop with Iris Xe graphics and 16 GB RAM, Windows 11, October 2026. The game used is [DOOM for PS5](https://github.com/lowbit/ps5-doom), a free, open-source fan port packaged like a real PS5 game. Nothing here covers dumping games.
 
