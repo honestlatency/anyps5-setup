@@ -48,6 +48,13 @@ If configure fails downloading FFmpeg with an SSL certificate error, run this, t
 set SSL_CERT_FILE=C:\Program Files\Git\mingw64\etc\ssl\certs\ca-bundle.crt
 ```
 
+> **Using PowerShell instead of Command Prompt?** Windows Terminal opens PowerShell by default, and there `set PATH=...` fails. Use these two lines in place of the two `set` lines above; the rest of the build commands are the same:
+> ```powershell
+> $env:PATH = "C:\winlibs\mingw64\bin;" + $env:PATH
+> $env:SSL_CERT_FILE = "C:\Program Files\Git\mingw64\etc\ssl\certs\ca-bundle.crt"
+> ```
+> They only last for that window, so run the build in the same window. `gcc --version` should print `15.2.0`.
+
 **Game folder** (Command Prompt, inside `C:\Games\DOOM`)
 ```
 DOOM\
